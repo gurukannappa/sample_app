@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "activity/index"
+
   get "static_pages/home"
 
   get "static_pages/help"
