@@ -8,4 +8,7 @@ class ActivityController < ApplicationController
 
   def cherrypick
   end
+
+  def cherrypick
+  end
 end
