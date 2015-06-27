@@ -11,4 +11,7 @@ class ActivityController < ApplicationController
 
   def again_a_test
   end
+
+  def this_is_second_test
+  end
 end
