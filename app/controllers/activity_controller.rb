@@ -5,4 +5,7 @@ class ActivityController < ApplicationController
 
   def show
   end
+
+  def cherrypick
+  end
 end
