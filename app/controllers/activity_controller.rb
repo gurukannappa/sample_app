@@ -9,7 +9,8 @@ class ActivityController < ApplicationController
   def cherrypick
   end
 
-  def cherrypick
+
+  def again_a_test
   end
 
   def this_is_second_test
