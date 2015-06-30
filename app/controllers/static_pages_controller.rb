@@ -20,4 +20,5 @@ class StaticPagesController < ApplicationController
 
   def testing2
   end
+
 end
