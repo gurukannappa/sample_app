@@ -14,4 +14,10 @@ class StaticPagesController < ApplicationController
 
   def index
   end
+
+  def testing1
+  end
+
+  def testing2
+  end
 end
