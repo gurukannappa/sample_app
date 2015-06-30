@@ -17,4 +17,7 @@ class StaticPagesController < ApplicationController
 
   def testing1
   end
+
+  def testing2
+  end
 end
