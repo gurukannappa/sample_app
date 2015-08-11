@@ -15,4 +15,7 @@ class ActivityController < ApplicationController
 
   def this_is_second_test
   end
+
+  def testaction
+  end
 end
