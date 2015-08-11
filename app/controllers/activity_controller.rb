@@ -18,4 +18,7 @@ class ActivityController < ApplicationController
 
   def testaction
   end
+
+  def test
+  end
 end
