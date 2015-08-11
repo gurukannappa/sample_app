@@ -21,4 +21,7 @@ class ActivityController < ApplicationController
 
   def test
   end
+
+  def agia
+  end
 end
