@@ -1,0 +1,52 @@
+From c4da2111f2607d2d9611840010d05d0ca1dd3dbe Mon Sep 17 00:00:00 2001
+From: Guruprasad <gurukannappa@gmail.com>
+Date: Tue, 11 Aug 2015 12:55:10 +0530
+Subject: [PATCH 1/2] patch test 1
+
+---
+ app/controllers/static_pages_controller.rb | 3 +++
+ guru.patch                                 | 0
+ 2 files changed, 3 insertions(+)
+ create mode 100644 guru.patch
+
+diff --git a/app/controllers/static_pages_controller.rb b/app/controllers/static_pages_controller.rb
+index d02ab43..17dbab3 100644
+--- a/app/controllers/static_pages_controller.rb
++++ b/app/controllers/static_pages_controller.rb
+@@ -20,4 +20,7 @@ class StaticPagesController < ApplicationController
+ 
+   def testing2
+   end
++
++  def testing3
++  end
+ end
+diff --git a/guru.patch b/guru.patch
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.0.3
+
+
+From 93dadf3d59aa1cadcc35ffdbe1516149d16c3fcc Mon Sep 17 00:00:00 2001
+From: Guruprasad <gurukannappa@gmail.com>
+Date: Tue, 11 Aug 2015 12:58:53 +0530
+Subject: [PATCH 2/2] Second git patch test
+
+---
+ app/views/activity/index.html.erb | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/app/views/activity/index.html.erb b/app/views/activity/index.html.erb
+index 545b663..1f6b319 100644
+--- a/app/views/activity/index.html.erb
++++ b/app/views/activity/index.html.erb
+@@ -13,3 +13,5 @@ hello cappy
+ hello staging
+ 
+ 
++Testing by applying git patch
++
+-- 
+2.0.3
+
