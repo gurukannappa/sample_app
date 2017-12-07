@@ -24,7 +24,4 @@ class ActivityController < ApplicationController
 
   def agia
   end
-
-  def wednesday
-  end
 end
