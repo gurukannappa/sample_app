@@ -1,7 +1,5 @@
 class StaticPagesController < ApplicationController
 
-	def kannu
-	end
 	
   def home
   end
