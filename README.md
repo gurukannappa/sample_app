@@ -31,6 +31,7 @@ link:files/vendor/rails/actionpack/README.html.
 == Getting Started
 
 D
+C
 
 1. At the command prompt, create a new Rails application:
        <tt>rails new myapp</tt> (where <tt>myapp</tt> is the application name)
