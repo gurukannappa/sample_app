@@ -23,4 +23,7 @@ class StaticPagesController < ApplicationController
 
   def testing3
   end
+
+  def three
+  end
 end
