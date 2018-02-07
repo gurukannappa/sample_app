@@ -9,4 +9,7 @@ class ApplicationController < ActionController::Base
 
   def master_feature
   end
+
+  def second_feature
+  end
 end
