@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
 
   def two
   end
+
+  def master_feature
+  end
 end
