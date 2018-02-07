@@ -27,4 +27,7 @@ class ActivityController < ApplicationController
 
   def wednesday
   end
+
+  def thursday
+  end
 end
