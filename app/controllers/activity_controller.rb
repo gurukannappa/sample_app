@@ -30,4 +30,7 @@ class ActivityController < ApplicationController
 
   def thursday
   end
+
+  def hotfix
+  end
 end
